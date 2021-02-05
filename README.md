@@ -22,6 +22,16 @@ Rust的开发的体验确实不错，解决了很多C++的痛点，同时又可�
 
 <br>
 
+## 编译方法
+### mac
+```
+brew install rust
+cd projRoot/
+cargo build
+# build成功后，二进制文件将产生在：target/debug/build/ 中
+```
+
+
 ## 使用方法
 
 命令行运行 *（最近实现了交叉编译，提供了多种系统平台下已编译好的程序）*
